@@ -1,13 +1,23 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.clear-all-button {
+  background-color: rgb(52, 143, 173); /* Set the background color */
+  color: white; /* Set the text color */
+  border: none; /* Remove the border */
+  padding: 10px; /* Add some padding */
+  margin-top: 25px; /* Add margin to the top */
+  margin-left: 30px; /* Add margin to the left */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
 }
